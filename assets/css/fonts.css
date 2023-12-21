@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;800&amp;display=swap");
+
+@font-face {
+  font-family: "SpaceMono-Regular";
+  src: url("../fonts/SpaceMono-Regular.eot");
+  src: url("../fonts/SpaceMono-Regulard41d.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SpaceMono-Regular.woff") format("woff"),
+    url("../fonts/SpaceMono-Regular.ttf") format("truetype"),
+    url("../fonts/SpaceMono-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "SpaceMono-Regular", "Helvetica", "Arial", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 400;
+}
+
+h1,
+h2,
+.h1,
+.h2,
+h3,
+h4,
+.h3,
+.h4,
+h5,
+h6,
+.h5,
+.h6 {
+  font-weight: 700;
+}
+
+.lead {
+  font-family: "SpaceMono-Regular", "Helvetica", "Arial", sans-serif;
+}
+
+.menu > li {
+  font-family: "SpaceMono-Regular", "Helvetica", "Arial", sans-serif;
+}
+
+a.nav-link {
+  font-family: "SpaceMono-Regular", "Helvetica", "Arial", sans-serif;
+}
+
+.btn,
+.btn__text,
+button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 400;
+}
