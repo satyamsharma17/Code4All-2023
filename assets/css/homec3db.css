@@ -484,7 +484,7 @@ section {
   margin-bottom: 1.4rem;
 }
 #home p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   color: var(--c-paragraph);
   margin-bottom: 1.4rem !important;
@@ -527,7 +527,7 @@ section {
   display: inline-block;
   width: auto;
   position: relative;
-  padding: 4rem 3rem !important;
+  padding: 2rem 1.5rem !important;
 }
 #home .box-outlines p {
   margin-bottom: 0;
@@ -698,7 +698,7 @@ section {
   transform: translate(-50%, -50%);
 }
 #home .hero .container .treatment .typed-text-wrap .typed-text-hero {
-  font-size: 3.5vw;
+  font-size: 5.5vw;
   font-weight: bolder;
 }
 @media (min-width: 992px) and (min-height: 600px) {
