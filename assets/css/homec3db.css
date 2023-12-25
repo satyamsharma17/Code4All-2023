@@ -283,7 +283,7 @@ section {
 .header-banner.is-hidden {
   display: none;
 }
-.hackusama {
+.haccode4all {
   display: block;
   position: relative;
   overflow: hidden;
@@ -291,11 +291,11 @@ section {
   width: 100%;
 }
 @media (min-width: 768px) {
-  .hackusama {
+  .haccode4all {
     max-height: 60px;
   }
 }
-.hackusama .hackusama-bg {
+.haccode4all .haccode4all-bg {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   position: absolute;
@@ -304,14 +304,14 @@ section {
   width: 100%;
   height: auto;
 }
-.hackusama .hackusama-logo {
+.haccode4all .haccode4all-logo {
   position: relative;
   display: block;
   width: 50vw;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  .hackusama .hackusama-logo {
+  .haccode4all .haccode4all-logo {
     position: absolute;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -321,13 +321,13 @@ section {
     top: 50%;
   }
 }
-.hackusama .hackusama-title {
+.haccode4all .haccode4all-title {
   position: relative;
   color: #fff;
   text-align: center;
 }
 @media (min-width: 768px) {
-  .hackusama .hackusama-title {
+  .haccode4all .haccode4all-title {
     position: absolute;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -336,7 +336,7 @@ section {
     font-weight: bold;
   }
 }
-.hackusama:hover .hackusama-logo {
+.haccode4all:hover .haccode4all-logo {
   -webkit-transform: translateY(-50%) scale(1.04);
   transform: translateY(-50%) scale(1.04);
 }
