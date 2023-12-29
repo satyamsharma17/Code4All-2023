@@ -77,18 +77,20 @@ button {
 
 .glow {
   font-size: 4rem;
-  color: #fff;
   text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-  font-family: "good-times-rg";
+  animation: glow 1.4s ease-in-out infinite alternate;
+  font-family: "good-times-rg", serif;
 }
   
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 0px #fff, 0 0 0px #baf9e4, 0 0 7px #00e6cb, 0 0 0px #00d7e6, 0 0 17px #00e696;
+    text-shadow: 0 0 2px #00d7e6, 0 0 3px #41eee0, 0 0 5px #86cec8, 0 0 7px #a7e8de, 0 0 11px #8ae1ca;
+    
+    color: #85e9f0;
   }
 
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #baf9e4, 0 0 20px #00e6cb, 0 0 25px #00d7e6, 0 0 35px #00e696;
+    color: #fff;
+    text-shadow: 0 0 0px #fff, 0 0 0px #baf9e4, 0 0 0px #00e6cb, 0 0 0px #00d7e6, 0 0 0px #00e696;
   }
 }
