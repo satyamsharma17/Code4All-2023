@@ -411,10 +411,13 @@ section {
   display: inline-block;
   width: auto;
   position: relative;
-  padding: 4rem 3rem !important;
+  padding: 2rem 2rem !important;
 }
 #auctions .box-outlines p {
   margin-bottom: 0;
+}
+#auction .box-outlines img{
+  width: 100%;
 }
 #auctions .box-outlines::before,
 #auctions .box-outlines::after {
@@ -659,7 +662,7 @@ section {
 }
 @media (min-width: 960px) {
   #auctions .take-flight .flight-select-wrap .flight-select {
-    width: 28%;
+    width: 35%;
   }
 }
 #auctions .take-flight .flight-select-wrap .flight-select h3 {

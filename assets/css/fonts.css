@@ -10,6 +10,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "good-times-rg";
+  src: url("../fonts/good_times_rg.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   font-family: "SpaceMono-Regular", "Helvetica", "Arial", sans-serif;
@@ -67,4 +73,22 @@ a.nav-link {
 button {
   font-family: "Space Grotesk", sans-serif;
   font-size: 400;
+}
+
+.glow {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-family: "good-times-rg";
+}
+  
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 0px #fff, 0 0 0px #baf9e4, 0 0 7px #00e6cb, 0 0 0px #00d7e6, 0 0 17px #00e696;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #baf9e4, 0 0 20px #00e6cb, 0 0 25px #00d7e6, 0 0 35px #00e696;
+  }
 }
