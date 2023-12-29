@@ -359,7 +359,7 @@ section {
   color: var(--c-light);
 }
 #parachains .parachains {
-  padding-top: 9rem;
+  padding-top: 5rem;
 }
 #parachains h1,
 #parachains h2,
@@ -584,7 +584,7 @@ section {
   text-align: center;
 }
 #parachains .section-hero .bg-img img {
-  max-width: 80%;
+  max-width: 45%;
 }
 #parachains .features {
   position: relative;
