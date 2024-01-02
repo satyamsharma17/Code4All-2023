@@ -411,8 +411,11 @@ section {
   display: inline-block;
   width: auto;
   position: relative;
-  padding: 2rem 2rem !important;
+  padding: 1rem 1rem !important;
+  margin: 2rem;
 }
+
+
 #auctions .box-outlines p {
   margin-bottom: 0;
 }
@@ -647,13 +650,18 @@ section {
 #auctions .take-flight .flight-select-wrap {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-top: 3rem;
+  
 }
 #auctions .take-flight .flight-select-wrap .flight-select {
   min-width: 240px;
   width: 100%;
   margin: 0 1rem 4rem 1rem;
+}
+
+#auction .flight-select .content-img {
+
 }
 @media (min-width: 768px) {
   #auctions .take-flight .flight-select-wrap .flight-select {
